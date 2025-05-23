@@ -1,0 +1,106 @@
+/* General Styling */
+body {
+  background-image: url('../images/honda_k_series_engine.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+
+
+/* Header */
+h1, h2 {
+  color: #c90000;
+  text-align: center;
+}
+
+#home, #gallery, #contact, #video {
+  background-color: rgba(0, 0, 0, 0.7); /* semi-transparent black */
+  padding: 30px;
+  border-radius: 12px;
+  color: white;
+}
+
+
+/* Gallery images */
+#gallery div > div {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#gallery img {
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+#gallery img:hover {
+  transform: scale(1.05);
+}
+
+/* Form Styling */
+form {
+  text-align: center;
+}
+
+input[type="text"],
+textarea {
+  width: 80%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+input[type="submit"] {
+  background-color: #c90000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+input[type="submit"]:hover {
+  background-color: #a70000;
+}
+
+/* Video */
+#video {
+  text-align: center;
+}
+
+/* Footer */
+footer, div:last-of-type {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+/* Navigation */
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: #c90000;
+  padding: 10px 0;
+  margin: 0;
+}
+
+ul a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+ul a:hover {
+  background-color: #a70000;
+  border-radius: 5px;
+}
