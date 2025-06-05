@@ -1,0 +1,12 @@
+
+p {
+  font-size: 20px;
+  color: black;
+}
+
+
+@media screen and (max-width: 600px) {
+  p {
+    color: blue;
+  }
+}
