@@ -1,82 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Honda Civic Fan Page</title>
-  <link rel="stylesheet" href="./one_page_website.css">
+    <meta charset="utf-8">
+    <title>Honda Civic Fan Page</title>
+    <link rel="stylesheet" href="./one_page_website.css">
+    <script src="JS/one_page_website.js" defer></script> 
 </head>
 <body>
 
-  <!-- HOME SECTION -->
-  <div id="home">
-    <div>
-      <h1>Honda Civic</h1>
-      <p>Welcome to my fan page about Japanese cars. I really like Honda Civics. They are cool, fast, and reliable.</p>
+    <!-- HOME SECTION -->
+    <div id="home">
+        <div>
+            <h1>Honda Civic</h1>
+            <p>Welcome to my fan page about Japanese cars. I really like Honda Civics. They are cool, fast, and reliable.</p>
+        </div>
     </div>
-  </div>
-  <!-- END HOME -->
-
-  <!-- GALLERY SECTION -->
-  <div id="gallery">
-    <div>
-      <h2>Gallery</h2>
-
-      <!-- CAR 1 -->
+    <!-- GALLERY SECTION -->
+    <div id="gallery">
       <div>
-        <img src="../Images/Thumb2/civic1.png" alt="Honda Civic Red" width="200">
-        <p>This is a red Honda Civic. It looks sporty!</p>
+        <h2>Gallery</h2>
+
+        <!-- CAR 1 -->
+        <div>
+          <a href="../Images/Thumb2/civic1.png" class="lightbox-trigger">
+            <img src="../Images/Thumb2/civic1.png" alt="Honda Civic Red" width="200">
+          </a>
+          <p>This is a red Honda Civic. It looks sporty!</p>
+        </div>
+
+        <!-- CAR 2 -->
+        <div>
+          <a href="../Images/Thumb2/civic2.png" class="lightbox-trigger">
+            <img src="../Images/Thumb2/civic2.png" alt="Honda Civic Blue" width="200">
+          </a>
+          <p>This is a blue Honda Civic. I like the color a lot.</p>
+        </div>
       </div>
-
-      <!-- CAR 2 -->
-      <div>
-        <img src="../Images/Thumb2/civic2.png" alt="Honda Civic Blue" width="200">
-        <p>This is a blue Honda Civic. I like the color a lot.</p>
-      </div>
     </div>
-  </div>
-  <!-- END GALLERY -->
-  
+    <!-- CONTACT SECTION -->
+    <div id="contact">
+        <div>
+            <h2>Tell Me Your Favorite Car!</h2>
+            <p>Fill out the form below:</p>
+            <form>
+                <div class="input-wrapper">
+                    <input type="text" placeholder="Your Name">
+                    <button type="button" class="clear-btn">×</button>
+                </div>
 
-  <!-- CONTACT SECTION -->
-  <div id="contact">
+                <div class="input-wrapper">
+                    <input type="text" placeholder="Favorite Car">
+                    <button type="button" class="clear-btn">×</button>
+                </div>
+
+                <div class="input-wrapper">
+                    <input type="text" placeholder="Your Email">
+                    <button type="button" class="clear-btn">×</button>
+                </div>
+
+                <div class="input-wrapper">
+                    <textarea rows="4" placeholder="Why do you like it?"></textarea>
+                    <button type="button" class="clear-btn">×</button>
+                </div>
+
+                <!-- Wrapped submit for alignment -->
+                <div class="input-wrapper">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- VIDEO SECTION -->
+    <div id="video">
+        <h2>Watch a Honda Civic Videos</h2>
+        <iframe width="300" height="200" src="https://www.youtube.com/embed/lFaS-yWFqSY" allowfullscreen></iframe>
+        <iframe width="300" height="200" src="https://www.youtube.com/embed/MUCVuEnCZtk" allowfullscreen></iframe>
+    </div>
+
+    <!-- FOOTER -->
     <div>
-      <h2>Tell Me Your Favorite Car!</h2>
-      <p>Fill out the form below:</p>
-      <form>
-        <input type="text" value="Your Name"><br><br>
-        <input type="text" value="Favorite Car"><br><br>
-        <textarea rows="4" cols="30">Why do you like it?</textarea><br><br>
-        <input type="submit" value="Submit">
-      </form>
+        <p>© 2025 My Honda Civic Page</p>
     </div>
-  </div>
-  <!-- END CONTACT -->
-  
-<!-- VideoClip -->
-<div id="video">
-  <h2>Watch a Honda Civic Video</h2>
-  <iframe width="300" height="200" src="https://www.youtube.com/embed/lFaS-yWFqSY" allowfullscreen></iframe>
-</div>
-<!-- End VideoClip -->
 
-
-  <!-- FOOTER -->
-  <div>
-    <p>© 2025 My Honda Civic Page</p>
-  </div>
-  <!-- END FOOTER -->
-  
-   <!-- NAVIGATION -->
-  <div>
+    <!-- NAVIGATION -->
     <div>
-      <ul>
-        <a href="#home"><li>HOME</li></a>
-        <a href="#gallery"><li>GALLERY</li></a>
-        <a href="#contact"><li>CONTACT</li></a>
-      </ul>
+        <div>
+            <ul>
+                <a href="#home"><li>HOME</li></a>
+                <a href="#gallery"><li>GALLERY</li></a>
+                <a href="#contact"><li>CONTACT</li></a>
+            </ul>
+        </div>
     </div>
-  </div>
-  <!-- END NAVIGATION -->
 
 </body>
 </html>
